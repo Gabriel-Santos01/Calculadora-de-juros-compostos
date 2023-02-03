@@ -18,23 +18,14 @@ body {
   height: 100vh;
 }
 
+.wrapper {
+  margin-inline: 2rem;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: 700;
 }
-
-/* h1::before {
-  position: absolute;
-  content: '';
-  height: 2px;
-  width: 16rem;
-  background: linear-gradient(
-    80deg,
-    rgba(34, 193, 195, 1),
-    rgba(140, 0, 254, 1),
-    rgb(0, 195, 255)
-  );
-} */
 
 #calculator {
   display: flex;
